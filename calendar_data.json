@@ -1,0 +1,61 @@
+[
+    {"date": "2024-03-01", "severity": 3},
+    {"date": "2024-03-02", "severity": 1},
+    {"date": "2024-03-03", "severity": 4},
+    {"date": "2024-03-04", "severity": 2},
+    {"date": "2024-03-05", "severity": 4},
+    {"date": "2024-03-06", "severity": 2},
+    {"date": "2024-03-07", "severity": 5},
+
+    {"date": "2024-03-09", "severity": 1},
+    {"date": "2024-03-10", "severity": 4},
+    {"date": "2024-03-11", "severity": 3},
+
+
+    {"date": "2024-03-15", "severity": 5},
+    {"date": "2024-03-16", "severity": 2},
+    {"date": "2024-03-17", "severity": 3},
+    {"date": "2024-03-18", "severity": 5},
+    {"date": "2024-03-19", "severity": 1},
+    {"date": "2024-03-20", "severity": 4},
+    {"date": "2024-03-21", "severity": 3},
+
+    {"date": "2024-03-24", "severity": 2},
+    {"date": "2024-03-25", "severity": 5},
+    {"date": "2024-03-26", "severity": 3},
+    {"date": "2024-03-27", "severity": 1},
+    {"date": "2024-03-28", "severity": 4},
+
+    {"date": "2024-03-30", "severity": 4},
+    {"date": "2024-03-31", "severity": 3},
+
+    {"date": "2024-04-01", "severity": 3},
+    {"date": "2024-04-02", "severity": 2},
+    {"date": "2024-04-03", "severity": 3},
+    {"date": "2024-04-04", "severity": 5},
+
+    {"date": "2024-04-06", "severity": 4},
+    {"date": "2024-04-07", "severity": 2},
+    {"date": "2024-04-08", "severity": 1},
+    {"date": "2024-04-09", "severity": 3},
+    {"date": "2024-04-10", "severity": 5},
+    {"date": "2024-04-11", "severity": 2},
+    {"date": "2024-04-12", "severity": 3},
+    {"date": "2024-04-13", "severity": 3},
+    {"date": "2024-04-14", "severity": 1},
+    {"date": "2024-04-15", "severity": 4},
+
+    {"date": "2024-04-18", "severity": 5},
+    {"date": "2024-04-19", "severity": 1},
+    {"date": "2024-04-20", "severity": 3},
+    {"date": "2024-04-21", "severity": 2},
+    {"date": "2024-04-22", "severity": 3},
+    {"date": "2024-04-23", "severity": 1},
+    {"date": "2024-04-24", "severity": 4},
+    {"date": "2024-04-25", "severity": 2},
+    {"date": "2024-04-26", "severity": 3},
+    {"date": "2024-04-27", "severity": 5},
+    {"date": "2024-04-28", "severity": 2},
+
+    {"date": "2024-04-30", "severity": 3}
+]

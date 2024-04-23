@@ -111,7 +111,7 @@ const styles = StyleSheet.create({
     flexWrap: 'wrap',
     justifyContent: 'space-between',
     //alignItems: 'center',
-    marginBottom: 20,
+    marginBottom: 0,
   },
   box: {
     width: '23%',
@@ -143,7 +143,9 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.primary,
     alignItems: 'center',
     justifyContent: 'center',
+    alignSelf: 'center',
     marginVertical: 10,
+    marginBottom: 20,
   },
   bloatingText: {
     color: Colors.white,

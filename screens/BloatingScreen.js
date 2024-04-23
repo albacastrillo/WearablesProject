@@ -8,20 +8,20 @@ import Slider from '@react-native-community/slider';
 import Colors from '../constants/Colors';
 
 const symptoms = [
-  { name: 'Symptom 1', image: require('../assets/images/coffee.png') },
-  { name: 'Symptom 2', image: require('../assets/images/chocolate.png') },
-  { name: 'Symptom 3', image: require('../assets/images/sandwich.png') },
-  { name: 'Symptom 4', image: require('../assets/images/coffee.png') },
-  { name: 'Symptom 5', image: require('../assets/images/chocolate.png') },
-  { name: 'Symptom 6', image: require('../assets/images/sandwich.png') },
-  { name: 'Symptom 7', image: require('../assets/images/coffee.png') },
-  { name: 'Symptom 8', image: require('../assets/images/chocolate.png') },
+  { name: 'Gassy', image: require('../assets/images/coffee.png') },
+  { name: 'Flatulence', image: require('../assets/images/chocolate.png') },
+  { name: 'Pain', image: require('../assets/images/sandwich.png') },
+  { name: 'Diarrhea', image: require('../assets/images/coffee.png') },
+  { name: 'Burping', image: require('../assets/images/chocolate.png') },
+  { name: 'Heaviness', image: require('../assets/images/sandwich.png') },
+  { name: 'Puke', image: require('../assets/images/coffee.png') },
+  { name: 'Heartburn', image: require('../assets/images/chocolate.png') },
   // Add more symptoms...
 ];
 
 export default function BloatingScreen({ navigation }) {
   const [customSymptom, setCustomSymptom] = useState('');
-  const [severity, setSeverity] = useState(5);
+  const [severity, setSeverity] = useState(3);
   const [selectedSymptoms, setSelectedSymptoms] = useState([]);
   const [customSymptoms, setCustomSymptoms] = useState([]);
 
@@ -97,7 +97,7 @@ export default function BloatingScreen({ navigation }) {
         value={severity}
         onValueChange={setSeverity}
         minimumValue={1}
-        maximumValue={10}
+        maximumValue={5}
         step={1}
         minimumTrackTintColor={Colors.primary}
         maximumTrackTintColor={Colors.gray}
@@ -155,6 +155,7 @@ const styles = StyleSheet.create({
     height: 40,
     borderColor: 'gray',
     borderWidth: 1,
+    borderRadius: 10,
     marginTop: 10,
     marginBottom: 10,
     paddingLeft: 10,
